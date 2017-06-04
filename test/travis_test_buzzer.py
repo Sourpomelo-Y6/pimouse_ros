@@ -54,4 +54,4 @@ class BuzzerTest(unittest.TestCase):
 if __name__ == '__main__':
 	time.sleep(3)
 	rospy.init_node('travis_test_buzzer')
-	rostest.rosrun('pimouse_ros','tarvis_test_buzzer',BuzzerTest)
+	rostest.rosrun('pimouse_ros','travis_test_buzzer',BuzzerTest)
